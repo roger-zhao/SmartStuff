@@ -1,0 +1,3 @@
+BusDevice.o: BusDevice.cpp BusDevice.h
+
+BusDevice.h:

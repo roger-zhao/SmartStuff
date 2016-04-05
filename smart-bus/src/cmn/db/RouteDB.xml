@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Route Map configure xml file-->
+<Route id ="0">
+    <station id="0">
+        <Name>zhonglou</Name>
+        <Latitude>100</Latitude>
+        <Lontitude>200</Lontitude>
+        <VoiceDecode>01;D6;D3;C2;A5;D5;BE</VoiceDecode>
+        <DisplayDecode>00;00</DisplayDecode> 
+    </station>
+    <station id="1">
+        <Name>dayanta</Name>
+        <Latitude>100</Latitude>
+        <VoiceDecode>01;B4;F3;D1;E3;CB;FE;D5;BE</VoiceDecode>
+        <DisplayDecode>00;00</DisplayDecode> 
+    </station>
+    <station id="2">
+        <Name>xiaozai</Name>
+        <Latitude>100</Latitude>
+        <Lontitude>200</Lontitude>
+        <VoiceDecode>01;D0;A1;D5;AF;D5;BE </VoiceDecode>
+        <DisplayDecode>00;00</DisplayDecode> 
+    </station>
+    <station id="3">
+        <Name>dianshita</Name>
+        <Latitude>100</Latitude>
+        <Lontitude>200</Lontitude>
+        <VoiceDecode>01;B5;E7;CA;D3;CB;FE;D5;BE</VoiceDecode>
+        <DisplayDecode>00;00</DisplayDecode> 
+    </station>
+    <station id="4">
+        <Name>xian</Name>
+        <Latitude>100</Latitude>
+        <Lontitude>200</Lontitude>
+        <VoiceDecode>01;CE;F7;B0;B2;D5;BE </VoiceDecode>
+        <DisplayDecode>00;00</DisplayDecode> 
+    </station>
+    <station id="5">
+        <Name>dahuitang</Name>
+        <Latitude>100</Latitude>
+        <Lontitude>200</Lontitude>
+        <VoiceDecode>01;B4;F3;BB;E1;CC;C3;D5;BE</VoiceDecode>
+        <DisplayDecode>00;00</DisplayDecode> 
+    </station>
+    <station id="6">
+        <Name>ruanjianruan</Name>
+        <Latitude>100</Latitude>
+        <Lontitude>200</Lontitude>
+        <VoiceDecode>01;C8;ED;BC;FE;D4;B0;D5;BE</VoiceDecode>
+        <DisplayDecode>00;00</DisplayDecode> 
+    </station>
+    <station id="7">
+        <Name>shiyuanhui</Name>
+        <Latitude>100</Latitude>
+        <Lontitude>200</Lontitude>
+        <VoiceDecode>01;CA;C0;D4;B0;BB;E1;D5;BE</VoiceDecode>
+        <DisplayDecode>00;00</DisplayDecode> 
+    </station>
+    <station id="8">
+        <Name>daminggong</Name>
+        <Latitude>100</Latitude>
+        <Lontitude>200</Lontitude>
+        <VoiceDecode>01;B4;F3;C3;F7;B9;AC;D5;BE</VoiceDecode>
+        <DisplayDecode>00;00</DisplayDecode> 
+    </station>
+    <station id="9">
+        <Name>daxuecheng</Name>
+        <Latitude>100</Latitude>
+        <Lontitude>200</Lontitude>
+        <VoiceDecode>01;B4;F3;D1;A7;B3;C7;D5;BE</VoiceDecode>
+        <DisplayDecode>00;00</DisplayDecode> 
+    </station>	
+</Route>

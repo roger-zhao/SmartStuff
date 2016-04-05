@@ -1,0 +1,33 @@
+README for smart-bus@VERSION@
+
+==============
+ INTRODUCTION
+==============
+
+Description: This software is designed as a basic architecture for embedded applicatioins in Linux
+Authors: Yang Mi and Zhao Yanjie
+Initiate date: 05-01@2015
+
+
+==============
+ REQUIREMENTS
+==============
+
+This app runs on GNU/Linux. For compile it, needs autoconf, automake, libtool and a recent
+compiler (mainly: gcc or cross-compiler) for basic features.
+
+
+=============
+ COMPILATION
+=============
+
+On host:
+$ host_compile_smb.sh
+
+On target:
+$ compile_smb.sh
+
+=======
+ USAGE
+=======
+
