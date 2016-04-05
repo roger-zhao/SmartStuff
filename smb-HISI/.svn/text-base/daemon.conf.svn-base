@@ -1,0 +1,7 @@
+# MAGIC NUMBER
+0xdeadbeef
+# PROCs: cmd arg1, arg2, arg...
+./live555MediaServer
+./sample_venc 0 
+./smb_APC
+

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/roger/Test/Daemon/simple/daemon/src/test.c
+test.h
+/home/roger/Test/Daemon/simple/daemon/src/test.h
+
+/home/roger/Test/Daemon/simple/daemon/src/test.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+syslog.h
+-
+signal.h
+-
+getopt.h
+-
+string.h
+-
+fcntl.h
+-
+sys/stat.h
+-
+sys/types.h
+-
+errno.h
+-
+

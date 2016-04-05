@@ -1,0 +1,248 @@
+The target system is: Linux - 1 - arm
+The host system is: Linux - 3.2.0-23-generic-pae - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-gcc 
+Build flags: ;-mthumb;-fdata-sections;-Wa,--noexecstack;-fsigned-char;-Wno-psabi;-mthumb;-fdata-sections;-Wa,--noexecstack;-fsigned-char;-Wno-psabi
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-g++ 
+Build flags: ;-mthumb;-fdata-sections;-Wa,--noexecstack;-fsigned-char;-Wno-psabi;-mthumb;-fdata-sections;-Wa,--noexecstack;-fsigned-char;-Wno-psabi
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o
+/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-gcc   -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi     -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o   -c /home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-gcc    -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o
+/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-gcc   -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi     -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-gcc    -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  
+Using built-in specs.
+Target: arm-hisiv100-linux-uclibcgnueabi
+Configured with: ../gcc-4.4-2010q1/configure --host=i486-linux-gnu --build=i486-linux-gnu --target=arm-hisiv100-linux-uclibcgnueabi --prefix=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/arm-hisiv100-linux --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-arch=armv5te --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --enable-shared --enable-lto --enable-symvers=gnu --enable-__cxa_atexit --disable-nls --enable-extra-hisi-multilibs --with-sysroot=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/arm-hisiv100-linux/target --with-build-sysroot=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/arm-hisiv100-linux/target --with-gmp=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-mpfr=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-ppl=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-cloog=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-libelf=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bstatic -lm' --enable-libgomp --enable-poison-system-directories --with-libelf=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-pkgversion='Hisilicon_v100(gcc4.4-290+uclibc_0.9.32.1+eabi+linuxpthread)' --with-bugurl=http://www.hisilicon.com/cn/service/claim.html
+Thread model: posix
+gcc version 4.4.1 (Hisilicon_v100(gcc4.4-290+uclibc_0.9.32.1+eabi+linuxpthread)) 
+COMPILER_PATH=/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../libexec/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../libexec/gcc/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/bin/
+LIBRARY_PATH=/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/lib/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/lib/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/
+COLLECT_GCC_OPTIONS='-mthumb' '-fdata-sections' '-fsigned-char' '-Wno-psabi' '-v' '-o' 'cmTryCompileExec' '-rdynamic' '-march=armv5te'
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../libexec/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/collect2 --sysroot=/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTryCompileExec /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crt1.o /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crti.o /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/crtbegin.o -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1 -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/lib -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/lib -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib --fix-cortex-a8 --no-undefined --gc-sections -z noexecstack -z relro -z now CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/crtend.o /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crtn.o
+make[1]: Leaving directory `/home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-hisiv100nptl-linux-ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[1]: Entering directory `/home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-gcc   -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi     -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-gcc    -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: arm-hisiv100-linux-uclibcgnueabi]
+  ignore line: [Configured with: ../gcc-4.4-2010q1/configure --host=i486-linux-gnu --build=i486-linux-gnu --target=arm-hisiv100-linux-uclibcgnueabi --prefix=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/arm-hisiv100-linux --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-arch=armv5te --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --enable-shared --enable-lto --enable-symvers=gnu --enable-__cxa_atexit --disable-nls --enable-extra-hisi-multilibs --with-sysroot=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/arm-hisiv100-linux/target --with-build-sysroot=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/arm-hisiv100-linux/target --with-gmp=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-mpfr=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-ppl=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-cloog=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-libelf=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bstatic -lm' --enable-libgomp --enable-poison-system-directories --with-libelf=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-pkgversion='Hisilicon_v100(gcc4.4-290+uclibc_0.9.32.1+eabi+linuxpthread)' --with-bugurl=http://www.hisilicon.com/cn/service/claim.html]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.1 (Hisilicon_v100(gcc4.4-290+uclibc_0.9.32.1+eabi+linuxpthread)) ]
+  ignore line: [COMPILER_PATH=/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../libexec/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../libexec/gcc/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/lib/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/lib/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-fdata-sections' '-fsigned-char' '-Wno-psabi' '-v' '-o' 'cmTryCompileExec' '-rdynamic' '-march=armv5te']
+  link line: [ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../libexec/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/collect2 --sysroot=/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTryCompileExec /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crt1.o /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crti.o /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/crtbegin.o -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1 -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/lib -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/lib -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib --fix-cortex-a8 --no-undefined --gc-sections -z noexecstack -z relro -z now CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/crtend.o /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crtn.o]
+    arg [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../libexec/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/collect2] ==> ignore
+    arg [--sysroot=/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crt1.o] ==> ignore
+    arg [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crti.o] ==> ignore
+    arg [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/crtbegin.o] ==> ignore
+    arg [-L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1] ==> dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1]
+    arg [-L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc] ==> dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc]
+    arg [-L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/lib] ==> dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/lib]
+    arg [-L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/lib] ==> dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/lib]
+    arg [-L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib] ==> dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib]
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/crtend.o] ==> ignore
+    arg [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1] ==> [/opt/hisi-linux-nptl/arm-hisiv100-linux/lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1]
+  collapse dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc] ==> [/opt/hisi-linux-nptl/arm-hisiv100-linux/lib/gcc]
+  collapse dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/lib] ==> [/opt/hisi-linux-nptl/arm-hisiv100-linux/arm-hisiv100-linux-uclibcgnueabi/lib]
+  collapse dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/lib] ==> [/opt/hisi-linux-nptl/arm-hisiv100-linux/target/lib]
+  collapse dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib] ==> [/opt/hisi-linux-nptl/arm-hisiv100-linux/target/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/opt/hisi-linux-nptl/arm-hisiv100-linux/lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1;/opt/hisi-linux-nptl/arm-hisiv100-linux/lib/gcc;/opt/hisi-linux-nptl/arm-hisiv100-linux/arm-hisiv100-linux-uclibcgnueabi/lib;/opt/hisi-linux-nptl/arm-hisiv100-linux/target/lib;/opt/hisi-linux-nptl/arm-hisiv100-linux/target/usr/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o
+/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-g++    -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o -c /home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-g++     -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]: Leaving directory `/home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o
+/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-g++    -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-g++     -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  
+Using built-in specs.
+Target: arm-hisiv100-linux-uclibcgnueabi
+Configured with: ../gcc-4.4-2010q1/configure --host=i486-linux-gnu --build=i486-linux-gnu --target=arm-hisiv100-linux-uclibcgnueabi --prefix=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/arm-hisiv100-linux --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-arch=armv5te --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --enable-shared --enable-lto --enable-symvers=gnu --enable-__cxa_atexit --disable-nls --enable-extra-hisi-multilibs --with-sysroot=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/arm-hisiv100-linux/target --with-build-sysroot=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/arm-hisiv100-linux/target --with-gmp=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-mpfr=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-ppl=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-cloog=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-libelf=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bstatic -lm' --enable-libgomp --enable-poison-system-directories --with-libelf=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-pkgversion='Hisilicon_v100(gcc4.4-290+uclibc_0.9.32.1+eabi+linuxpthread)' --with-bugurl=http://www.hisilicon.com/cn/service/claim.html
+Thread model: posix
+gcc version 4.4.1 (Hisilicon_v100(gcc4.4-290+uclibc_0.9.32.1+eabi+linuxpthread)) 
+COMPILER_PATH=/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../libexec/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../libexec/gcc/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/bin/
+LIBRARY_PATH=/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/lib/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/lib/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/
+COLLECT_GCC_OPTIONS='-mthumb' '-fdata-sections' '-fsigned-char' '-Wno-psabi' '-v' '-o' 'cmTryCompileExec' '-rdynamic' '-shared-libgcc' '-march=armv5te'
+ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../libexec/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/collect2 --sysroot=/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTryCompileExec /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crt1.o /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crti.o /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/crtbegin.o -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1 -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/lib -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/lib -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib --fix-cortex-a8 --no-undefined --gc-sections -z noexecstack -z relro -z now CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/crtend.o /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crtn.o
+make[1]: Leaving directory `/home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-hisiv100nptl-linux-ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[1]: Entering directory `/home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/roger/Test/Daemon/simple/daemon/build-hisi/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-g++    -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin/arm-hisiv100nptl-linux-g++     -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi -mthumb -fdata-sections -Wa,--noexecstack -fsigned-char -Wno-psabi    -Wl,--fix-cortex-a8 -Wl,--no-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: arm-hisiv100-linux-uclibcgnueabi]
+  ignore line: [Configured with: ../gcc-4.4-2010q1/configure --host=i486-linux-gnu --build=i486-linux-gnu --target=arm-hisiv100-linux-uclibcgnueabi --prefix=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/arm-hisiv100-linux --enable-threads --disable-libmudflap --disable-libssp --disable-libstdcxx-pch --with-arch=armv5te --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --enable-shared --enable-lto --enable-symvers=gnu --enable-__cxa_atexit --disable-nls --enable-extra-hisi-multilibs --with-sysroot=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/arm-hisiv100-linux/target --with-build-sysroot=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/arm-hisiv100-linux/target --with-gmp=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-mpfr=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-ppl=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-cloog=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-libelf=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bstatic -lm' --enable-libgomp --enable-poison-system-directories --with-libelf=/home/sying/uclibc_h3/hisiv100_finalnptl_src/hisiv100_src/install/host_lib --with-pkgversion='Hisilicon_v100(gcc4.4-290+uclibc_0.9.32.1+eabi+linuxpthread)' --with-bugurl=http://www.hisilicon.com/cn/service/claim.html]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.1 (Hisilicon_v100(gcc4.4-290+uclibc_0.9.32.1+eabi+linuxpthread)) ]
+  ignore line: [COMPILER_PATH=/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../libexec/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../libexec/gcc/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/lib/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/lib/:/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mthumb' '-fdata-sections' '-fsigned-char' '-Wno-psabi' '-v' '-o' 'cmTryCompileExec' '-rdynamic' '-shared-libgcc' '-march=armv5te']
+  link line: [ /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../libexec/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/collect2 --sysroot=/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTryCompileExec /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crt1.o /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crti.o /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/crtbegin.o -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1 -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/lib -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/lib -L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib --fix-cortex-a8 --no-undefined --gc-sections -z noexecstack -z relro -z now CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/crtend.o /opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crtn.o]
+    arg [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../libexec/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/collect2] ==> ignore
+    arg [--sysroot=/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crt1.o] ==> ignore
+    arg [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crti.o] ==> ignore
+    arg [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/crtbegin.o] ==> ignore
+    arg [-L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1] ==> dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1]
+    arg [-L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc] ==> dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc]
+    arg [-L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/lib] ==> dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/lib]
+    arg [-L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/lib] ==> dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/lib]
+    arg [-L/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib] ==> dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib]
+    arg [--fix-cortex-a8] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/crtend.o] ==> ignore
+    arg [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1] ==> [/opt/hisi-linux-nptl/arm-hisiv100-linux/lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1]
+  collapse dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc] ==> [/opt/hisi-linux-nptl/arm-hisiv100-linux/lib/gcc]
+  collapse dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1/../../../../arm-hisiv100-linux-uclibcgnueabi/lib] ==> [/opt/hisi-linux-nptl/arm-hisiv100-linux/arm-hisiv100-linux-uclibcgnueabi/lib]
+  collapse dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/lib] ==> [/opt/hisi-linux-nptl/arm-hisiv100-linux/target/lib]
+  collapse dir [/opt/hisi-linux-nptl/arm-hisiv100-linux/bin/../target/usr/lib] ==> [/opt/hisi-linux-nptl/arm-hisiv100-linux/target/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/opt/hisi-linux-nptl/arm-hisiv100-linux/lib/gcc/arm-hisiv100-linux-uclibcgnueabi/4.4.1;/opt/hisi-linux-nptl/arm-hisiv100-linux/lib/gcc;/opt/hisi-linux-nptl/arm-hisiv100-linux/arm-hisiv100-linux-uclibcgnueabi/lib;/opt/hisi-linux-nptl/arm-hisiv100-linux/target/lib;/opt/hisi-linux-nptl/arm-hisiv100-linux/target/usr/lib]
+
+
